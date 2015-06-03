@@ -1,4 +1,3 @@
-# thanks to http://hocuspokus.net/2009/07/add-git-and-svn-branch-to-bash-prompt for the jump start
 
 _parse_git_branch() {
   git name-rev HEAD 2> /dev/null | sed 's#HEAD\ \(.*\)#(git::\1)#'
