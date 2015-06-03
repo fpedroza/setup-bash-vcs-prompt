@@ -39,4 +39,4 @@ BPurple='\e[1;35m'      # Purple
 BCyan='\e[1;36m'        # Cyan
 BWhite='\e[1;37m'       # White
 
-export PS1="${BPurple}\u@\h:${BBlue}\$(_get_vcs_branch) ${BGreen}\w${Color_Off} > "
+export PS1="${BPurple}\u${BYellow}@${BPurple}\h:${BBlue}\$(_get_vcs_branch) ${BGreen}\w${Color_Off} > "
