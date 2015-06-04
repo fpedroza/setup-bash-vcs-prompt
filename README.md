@@ -8,13 +8,13 @@ Resulting prompt format is: "`<user>@<host>:(<vcs-info>) <working-directory> > `
 Example prompts:
 ```
   # non vcs directory
-  fpedroza$@myMachine: ~/depot > 
+  fpedroza@myMachine: ~/depot > 
 
   # git connected directory
-  fpedroza$@myMachine:(git::master) ~/depot/setup-bash-vcs-prompt > 
+  fpedroza@myMachine:(git::master) ~/depot/setup-bash-vcs-prompt > 
 
   # svn connected directory
-  fpedroza$@myMachine:(svn::/jig) ~/depot/jig > 
+  fpedroza@myMachine:(svn::/jig) ~/depot/jig > 
 ```
 
 Thanks to http://hocuspokus.net/2009/07/add-git-and-svn-branch-to-bash-prompt for the jump start
