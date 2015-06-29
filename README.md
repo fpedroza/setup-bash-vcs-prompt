@@ -18,3 +18,9 @@ Example prompts:
 ```
 
 Thanks to http://hocuspokus.net/2009/07/add-git-and-svn-branch-to-bash-prompt for the jump start
+
+# Installation Instructions
+Simply soure the file `setup-bash-vcs-prompt.sh` in your bash setup.  For example, in my `.profile` file I have the following:
+```
+  source ~/depot/setup-bash-vcs-prompt/setup-bash-vcs-prompt.sh
+```
